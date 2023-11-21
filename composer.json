@@ -3,14 +3,27 @@
     "description": "Sample PHP application for App Platform",
     "type": "project",
     "require": {
-        "ext-json": "*",
+        "alrik11es/cowsayphp": "^1.2",
         "ext-redis": "*",
-        "alrik11es/cowsayphp": "^1.2"
+        "auth0/login": "^7.4",
+        "doctrine/dbal": "^3.6",
+        "guzzlehttp/guzzle": "^7.2",
+        "laravel/framework": "^9.19",
+        "laravel/sail": "^1.18",
+        "laravel/sanctum": "^3.0",
+        "laravel/tinker": "^2.7",
+        "rakutentech/laravel-request-docs": "^1.31"
     },
+
     "authors": [
         {
             "name": "Kamal Nasser",
             "email": "kamal@digitalocean.com"
         }
-    ]
+    ],
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
