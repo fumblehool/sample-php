@@ -3,8 +3,9 @@
     "description": "Sample PHP application for App Platform",
     "type": "project",
     "require": {
-        "alrik11es/cowsayphp": "^1.2",
-        "ext-redis": "*"
+        "ext-json": "*",
+        "ext-redis": "*",
+        "alrik11es/cowsayphp": "^1.2"
     },
     "authors": [
         {
