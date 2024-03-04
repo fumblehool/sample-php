@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "alrik11es/cowsayphp": "^1.2",
-        "ext-redis": "*"
+        "ext-redis": "*",
+        "ext-igbinary": "*"
     },
 
     "authors": [
